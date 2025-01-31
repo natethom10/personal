@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img src="images/profile_picture.jpg" alt="Profile Photo">
+            <h1>Nathaniel Thomas</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown;">Web Developer</p>
+            <p>I am a Sophomore student at Iowa State University studying Software Engineering</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/project.png" alt="Project Photo">
+                <h3>Project 1</h3>
+                <p>
+                    This Word Search generator was made in C. Based on command line input, the program randomly generates the word search with words being aligned
+                    in random orientations. This allows for the word search to be as interesting for the user as possible. 
+                </p>
+            </div>
+            Add more project divs here
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me!</h2>
+            <p>You can contact me at natethom@iastate.edu</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Nathaniel Thomas</p>
+    </footer>
+</body>
+</html>
